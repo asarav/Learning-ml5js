@@ -6,7 +6,7 @@ const classifier = ml5.imageClassifier('MobileNet', modelReady);
 // A variable to hold the image we want to classify
 let img;
 
-let imageList = ['images/cat.jpg', 'images/dog.jpg', 'images/nyan-cat.jpg', 'images/falcon-heavy.jpg', 'images/trollface.png', 'images/goose.jpg', 'images/elon-musk.jpg']
+let imageList = ['images/cat.jpg', 'images/dog.jpg', 'images/nyan-cat.jpg', 'images/falcon-heavy.jpg', 'images/trollface.png', 'images/goose.jpg', 'images/elon-musk.jpg', 'images/hotdog.jpg']
 let listCounter = 1;
 
 function setup() {
