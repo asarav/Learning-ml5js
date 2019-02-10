@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Interactive LSTM Text Generation Example using p5.js</title>
+  <title>Interactive LSTM Text Generation with Selectable Authors</title>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.min.js"></script>
@@ -14,15 +14,15 @@
 <script src="text-prediction.js"></script>
 
 <body>
-    <h1>Interactive LSTM Text Generation Example using p5.js</h1>
+    <h1>Interactive LSTM Text Generation with Selectable Authors</h1>
   <textarea id="textInput" style="width: 500px; height: 500px;" placeholder="Enter your Text Here"></textarea>
   <p id="status">Loading Model</p>
   <p id="result">
     <span id="original"></span><span id="prediction"></span>
   </p>
 
-  <p>Choose your Author</p>
-  <div><button id="hemmingway">Hemmingway</button></div>
+  <p>Choose your Author: <span id="author"></span></p>
+  <div><button id="hemingway">Hemingway</button></div>
   <div><button id="jkrowling">JK Rowling</button></div>
   <div><button id="darwin">Darwin</button></div>
 </body>
